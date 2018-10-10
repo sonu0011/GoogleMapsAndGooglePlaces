@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/images"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sonu.kumar.googlemapsgoogleplaces.MainActivity">
+
+    <Button
+       android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:layout_height="wrap_content"
+        android:text="Open Map"
+        android:textColor="#fff"
+        android:background="#32a92c"
+        android:id="@+id/btnMap"/>
+</RelativeLayout>
